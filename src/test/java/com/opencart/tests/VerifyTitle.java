@@ -20,7 +20,7 @@ public class VerifyTitle extends BaseClass{
 				 driver.manage().window().maximize();
 		
 		         driver.get("https://demo.opencart.com");
-		         driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		         System.out.println(driver.getTitle());
 		         driver.quit();
 	}
