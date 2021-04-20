@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 import com.opencart.pages.LoginPage;
 import com.opencart.utils.BaseClass;
 
-public class AccountCreation extends BaseClass {
-
+public class NegativeAccountTest extends BaseClass{
+	
 	@BeforeTest
 	public void initialization() throws Exception {
 
@@ -24,29 +24,24 @@ public class AccountCreation extends BaseClass {
 		String firstname = prop.getProperty("first.name");
 		String lastname = prop.getProperty("last.name");
 		String email = prop.getProperty("e.mail");
-		String phone = prop.getProperty("telephone");
 		String password = prop.getProperty("user.password");
 		lp.getAccBtn().click();
 		lp.getRegBtn().click();
 		fill(lp.getFirstName(), firstname);
 		fill(lp.getLastName(), lastname);
 		fill(lp.getEmail(), email);
-		fill(lp.getTelePhone(), phone);
 		fill(lp.getPassWord(), password);
 		fill(lp.getConfirmPass(), password);
 		lp.getPrivacyPolicychk().click();
 		lp.getSubmitBtn().click();
-		String title = driver.getTitle();
-		if (title.equals("Your Account Has Been Created!")) {
+		String error = lp.getErrorMsg().getText();
+		if (error.contains("Telephone must be between 3 and 32 characters!")) {
 
-			Reporter.log("New Account Created Successfully...");
+			Reporter.log("Please fill all the details to create account..");
 
-		} else {
-
-			Reporter.log("Problem occured while creating new account");
-
-		}
+		} 
 
 	}
+
 
 }
