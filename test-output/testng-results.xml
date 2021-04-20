@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-20T10:18:27 IST" name="Default suite" finished-at="2021-04-20T10:18:36 IST" duration-ms="9406">
+    <groups>
+      <group name="group2">
+        <method signature="UploadFile.selectAdd()[pri:1, instance:com.opencart.tests.UploadFile@79924b]" name="selectAdd" class="com.opencart.tests.UploadFile"/>
+        <method signature="UploadFile.setup()[pri:0, instance:com.opencart.tests.UploadFile@79924b]" name="setup" class="com.opencart.tests.UploadFile"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="UploadFile.selectAdd()[pri:1, instance:com.opencart.tests.UploadFile@79924b]" name="selectAdd" class="com.opencart.tests.UploadFile"/>
+        <method signature="UploadFile.setup()[pri:0, instance:com.opencart.tests.UploadFile@79924b]" name="setup" class="com.opencart.tests.UploadFile"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2021-04-20T10:18:27 IST" name="Default test" finished-at="2021-04-20T10:18:36 IST" duration-ms="9406">
+      <class name="com.opencart.tests.UploadFile">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.opencart.tests.UploadFile@79924b]" started-at="2021-04-20T10:18:27 IST" name="startTest" finished-at="2021-04-20T10:18:27 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="setup()[pri:0, instance:com.opencart.tests.UploadFile@79924b]" started-at="2021-04-20T10:18:27 IST" name="setup" finished-at="2021-04-20T10:18:31 IST" duration-ms="3746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectAdd()[pri:1, instance:com.opencart.tests.UploadFile@79924b]" started-at="2021-04-20T10:18:31 IST" name="selectAdd" finished-at="2021-04-20T10:18:36 IST" duration-ms="5521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAdd -->
+      </class> <!-- com.opencart.tests.UploadFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
