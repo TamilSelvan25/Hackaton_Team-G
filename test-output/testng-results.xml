@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30136" started-at="2021-04-21T14:47:47 IST" finished-at="2021-04-21T14:48:17 IST">
+    <groups>
+      <group name="group2">
+        <method signature="MainTest.setup()[pri:0, instance:com.opencart.tests.MainTest@28ac3dc3]" name="setup" class="com.opencart.tests.MainTest"/>
+        <method signature="MainTest.userLogin()[pri:1, instance:com.opencart.tests.MainTest@28ac3dc3]" name="userLogin" class="com.opencart.tests.MainTest"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="MainTest.setup()[pri:0, instance:com.opencart.tests.MainTest@28ac3dc3]" name="setup" class="com.opencart.tests.MainTest"/>
+        <method signature="MainTest.userLogin()[pri:1, instance:com.opencart.tests.MainTest@28ac3dc3]" name="userLogin" class="com.opencart.tests.MainTest"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Default test" duration-ms="30136" started-at="2021-04-21T14:47:47 IST" finished-at="2021-04-21T14:48:17 IST">
+      <class name="com.opencart.tests.MainTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.opencart.tests.MainTest@28ac3dc3]" name="startTest" is-config="true" duration-ms="333" started-at="2021-04-21T14:47:47 IST" finished-at="2021-04-21T14:47:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.opencart.tests.MainTest@28ac3dc3]" name="setup" duration-ms="19135" started-at="2021-04-21T14:47:47 IST" finished-at="2021-04-21T14:48:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="userLogin()[pri:1, instance:com.opencart.tests.MainTest@28ac3dc3]" name="userLogin" duration-ms="10429" started-at="2021-04-21T14:48:06 IST" finished-at="2021-04-21T14:48:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+      </class> <!-- com.opencart.tests.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
